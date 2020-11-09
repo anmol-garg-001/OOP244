@@ -1,0 +1,6 @@
+ Name : Anmol Garg
+ Student ID: 149916199
+ Student email: agarg15@myseneca.ca
+ Date : 27 Sept, 2020
+
+ -> In this workshop, I have learnt about the concept of namespaces and how using namespaces prevents the same name conflicts which caused compilation errors in our code. These errors arise when more than one person works on a project and the team members accidentally use the same name for a method or variable. In addition, I came to know about the ‘bool’ data type which was not present in the C language. 'bool’ is a data type which can only hold either true or false in it (0 is false and any other non-zero value is true). Furthermore, I learnt how to divide code into various functions modules in order to increase the efficiency of code and making the debugging process easier. Proceeding further, I am now familiar with the basic usage of input output functions (cin & cout) in C++. I have also learnt about reading data from a text file in C++, it was almost similar to what we did in the C language.

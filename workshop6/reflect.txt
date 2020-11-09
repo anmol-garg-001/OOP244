@@ -1,0 +1,5 @@
+Name: Anmol Garg
+Student ID: 149916199
+Student Emai: agarg15@myseneca.ca
+Date: 7 November, 2020
+-> In this workshop, I have learnt some new concepts about the C++ programming language. The major objective in this workshop was to know that how to handle files in C++. The ‘fstream’ class is an in-built library class of C++ that handles all the work related to files. The fstream is directly related to the iostream (input-output stream). The only difference between these two is that iostream is used in direct interaction with the user whereas fstream helps to save and load the data from text files, excel files and used with various other kind of files to extract data. In addition to the file handling in C++, I also learnt about the use of copy constructor and copy assignment operator. The copy constructor is used to instantiate a class object using another object of the same class, by copying all the properties of one object to the object on the left side. Moreover, I also came to know about how to resize dynamically allocated memory using temporary variables.

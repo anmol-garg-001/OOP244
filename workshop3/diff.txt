@@ -1,0 +1,14 @@
+In line number 32 of your output:
+The output should be:
+                     GPA: 3.5
+                             ^
+But your output is: 
+                     GPA: 3.52381
+                             ^
+
+Unmatched character details:
+The character in column 30 is supposed to be:
+  [Empty Line] ASCII code(0)
+but you printed
+  [2] ASCII code(50)
+

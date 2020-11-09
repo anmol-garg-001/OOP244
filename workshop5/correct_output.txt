@@ -1,0 +1,80 @@
+Script started on Wed 21 Oct 2020 10:23:38 PM EDT
+==196205== Memcheck, a memory error detector
+==196205== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==196205== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==196205== Command: ws
+==196205== 
+Using bool conversion overload and operator ~ to print the accounts: 
+1: Acc#:  11111 , Balance:       111.11
+2: Acc#:  22222 , Balance:       222.22
+3: Invalid Account
+4: Acc#:  44444 , Balance:      4444.44
+5: Acc#:  55555 , Balance:       555.55
+6: Invalid Account
+7: Acc#:  77777 , Balance:       777.77
+8: Acc#: Not Set, Balance:         0.00
+9: Acc#: Not Set, Balance:         0.00
+Depositing $50.02 into account #1 using += operator:
+Acc#:  11111 , Balance:       161.13
+Withdrawing $100.01 from account #2 using -= operator:
+Acc#:  22222 , Balance:       122.21
+Attempting to withdraw too much from account #4 using -= operator:
+Acc#:  44444 , Balance:      4444.44
+Attempting to deposit and withdraw negative amounts on account #4:
+Acc#:  44444 , Balance:      4444.44
+Acc#:  44444 , Balance:      4444.44
+Sum of the balance of accounts 5 and 7
+   in three different ways: 1333.32, 1333.32, and 1333.32
+Setting the account number of account#8 to 88888: 
+before: Acc#: Not Set, Balance:         0.00
+After:  Acc#:  88888 , Balance:         0.00
+Moving the balance from account# 7 to Account #8 using operator=:
+Before: 
+1: Acc#:  77777 , Balance:       777.77
+2: Acc#:  88888 , Balance:         0.00
+After: 
+1: Acc#:  77777 , Balance:         0.00
+2: Acc#:  88888 , Balance:       777.77
+Setting the account number to a bad value, rendering the account#7 invalid:
+Invalid Account
+Attempting to move balance of a valid account to an invalid one: (8 to 7)
+This attempt should have no effect on either accounts
+Before: 
+1: Invalid Account
+2: Acc#:  88888 , Balance:       777.77
+After: 
+1: Invalid Account
+2: Acc#:  88888 , Balance:       777.77
+Display raw account numbers of all the accounts 
+ using int conversion operator
+11111 22222 -1 44444 55555 -1 -1 88888 0 
+Display raw balances of the accounts: 
+ using double conversion operator
+161.13 122.21 0.00 4444.44 555.55 0.00 0.00 777.77 0.00 
+Display valid accounts using bool conversion operator
+Acc#:  11111 , Balance:       161.13
+Acc#:  22222 , Balance:       122.21
+Acc#:  44444 , Balance:      4444.44
+Acc#:  55555 , Balance:       555.55
+Acc#:  88888 , Balance:       777.77
+Acc#: Not Set, Balance:         0.00
+
+Display valid accounts that are not new
+using bool conversion operator and operator~()
+Acc#:  11111 , Balance:       161.13
+Acc#:  22222 , Balance:       122.21
+Acc#:  44444 , Balance:      4444.44
+Acc#:  55555 , Balance:       555.55
+Acc#:  88888 , Balance:       777.77
+
+==196205== 
+==196205== HEAP SUMMARY:
+==196205==     in use at exit: 0 bytes in 0 blocks
+==196205==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==196205== 
+==196205== All heap blocks were freed -- no leaks are possible
+==196205== 
+==196205== For lists of detected and suppressed errors, rerun with: -s
+==196205== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Wed 21 Oct 2020 10:23:39 PM EDT

@@ -1,0 +1,5 @@
+Name : Anmol Garg
+Student ID: 149916199
+Student email: agarg15@myseneca.ca
+Date : 3 October, 2020
+-> In this workshop, I mainly learnt about the concept of dynamic memory. Previously, we were using fixed values when it comes to memory allocation. For example, in an assignment under IPC144, we were told that we have to load data from a file that contains some records but we didn’t knew anything about the number of records, so we used a very large number for the number of records, but using large numbers for memory allocation is inefficient when it comes to industry level applications. In this workshop, the amount of memory required is automatically allocated with respect to the number of records using dynamic memory. But, there is also a drawback of using dynamic memory, every time we allocate memory in dynamic memory, we also have to deallocate the memory at the end of the program otherwise, it will remain in the Random Access Memory (RAM) until someone turns off their device. This will result in system slowdown and more power consumption, so it’s must that the programmer deallocates the memory after their program finishes execution.
