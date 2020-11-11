@@ -5,7 +5,7 @@
 // Revised: Fardad
 /////////////////////////////////////////////
 
-#include<iostream>
+#include <iostream>
 #include "Truck.h"
 #include "Truck.h" // intentional
 #include "Vehicle.h"
@@ -78,7 +78,7 @@ int main()
 		moveAndLoad(aTruck, "Toronto Deposit", 2345);
 
 		moveAndLoad(aTruck, "Montreal", 3456);
-
+	  
 		moveAndLoad(aTruck, "New York", 4567);
 
 		moveAndUnload(aTruck, "New Jersey");
