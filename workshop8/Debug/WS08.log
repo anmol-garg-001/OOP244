@@ -1,0 +1,7 @@
+﻿  LblShape.cpp
+  Line.cpp
+  Rectangle.cpp
+C:\Users\garga\OneDrive\Documents\Seneca_GitHUB\OOP-Workshops\WS08\Rectangle.cpp(19,31): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Generating Code...
+  WS08.vcxproj -> C:\Users\garga\OneDrive\Documents\Seneca_GitHUB\OOP-Workshops\WS08\Debug\WS08.exe
