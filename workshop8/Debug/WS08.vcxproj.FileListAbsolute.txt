@@ -1,2 +1,0 @@
-C:\Users\garga\OneDrive\Documents\Seneca_GitHUB\OOP-Workshops\WS08\Debug\WS08.exe
-C:\Users\garga\OneDrive\Documents\Seneca_GitHUB\OOP-Workshops\WS08\Debug\WS08.pdb
